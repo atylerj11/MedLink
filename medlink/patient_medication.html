@@ -26,16 +26,100 @@
         <!-- Left Side -->
         <div class="container1">
             <div class="view-msg">View Medication</div>
+            <!-- Dropdown Menu -->
             <div class="dropdown">
-                <button>{FirstName LastName}</button>
-                <div class="dropdown-menu">
-
-                </div>
+                <form>
+                    <label for="patient"><b>Patient:</b></label>
+                    <select name="patient" id="patient">
+                        <option value="patient-1">{FirstName LastName} (Father)</option>
+                        <option value="patient-2">{FirstName LastName} (Daughter)</option>
+                        <option value="patient-3">{FirstName LastName} (Son)</option>
+                        <option value="patient-4">{FirstName LastName} (Granma)</option>
+                    </select>
+                    <input type="submit" value="View">
+                </form>
             </div>
         </div>
         <!-- Right Side -->
         <div class="container2">
+            <!-- Drug Card -->
+            <div class="card">
+                <div class="drug"><b>{Drug Name}</b></div>
+                <div class="date">
+                    <div class="given-date">
+                        <b>Prescribed: </b>{Prescibe Date}
+                    </div>
+                    <div class="done-date">
+                        <b>Last Until: </b>{Done Date}
+                    </div>
+                </div>
+                <div class="reason">
+                    <b>Reason: </b>
+                    {Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.} 
+                </div>
+                <div class="instructions">
+                    <b>How to take: </b>
+                    {Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.} 
+                </div>
+                <form>
+                    <input type="submit" value="Request Refill">
+                </form>
+            </div>
 
+            <div class="card">
+                <div class="drug"><b>{Drug Name}</b></div>
+                <div class="date">
+                    <div class="given-date">
+                        Prescribed: {Prescibe Date}
+                    </div>
+                    <div class="done-date">
+                        Last Until: {Done Date}
+                    </div>
+                </div>
+                <div class="reason">
+                    <b>Reason: </b>
+                    {Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.} 
+                </div>
+                <div class="instructions">
+                    <b>How to take: </b>
+                    {Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.} 
+                </div>
+                <form>
+                    <input type="submit" value="Request Refill">
+                </form>
+            </div>
+
+            <div class="card">
+                <div class="drug"><b>{Drug Name}</b></div>
+                <div class="date">
+                    <div class="given-date">
+                        Prescribed: {Prescibe Date}
+                    </div>
+                    <div class="done-date">
+                        Last Until: {Done Date}
+                    </div>
+                </div>
+                <div class="reason">
+                    <b>Reason: </b>
+                    {Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.} 
+                </div>
+                <div class="instructions">
+                    <b>How to take: </b>
+                    {Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.} 
+                </div>
+                <form>
+                    <input type="submit" value="Request Refill">
+                </form>
+            </div>
         </div>
         
     </main>

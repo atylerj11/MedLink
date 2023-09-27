@@ -50,6 +50,8 @@ main {
 .appointments {
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    max-height: 450px;
 }
 
     /* Appointment Card */
@@ -65,7 +67,7 @@ main {
 .info {
     display: flex;
     flex: auto;
-    height: 100%;
+    padding: 10px 0;
     background-color: white;
     border: 2px solid black;
     border-radius: 5px;
