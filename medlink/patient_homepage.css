@@ -1,0 +1,146 @@
+main {
+    height: calc(100vh - 70px - 20px);
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue {
+    background-color: #5CA7F7;
+}
+
+.white {
+    background-color: white;
+}
+
+/* Left Side */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1.8;
+}
+
+    /* Welcome Message  */
+.con_welcome {
+    flex-direction: column;
+    flex: initial;
+    padding: 30px 0 0 30px;
+}
+
+.welcome {
+    font-size: 80px;
+}
+
+.con_welcome .name {
+    font-size: 120px;
+}
+
+    /* Appointment Summary */
+.con_appointment {
+    flex: auto;
+    padding: 10px 0 30px 30px;
+}
+
+.upcoming {
+    font-size: 50px;
+}
+
+.appointments {
+    display: flex;
+    flex-direction: column;
+}
+
+    /* Appointment Card */
+.card {
+    display: flex;
+    height: 70px;
+    width: 95%;
+    margin: 20px 0;
+    font-size: 30px;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex: auto;
+    height: 100%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.card .name {
+    flex: auto;
+}
+
+.card .day {
+    flex: 1;
+    text-align: right;
+}
+
+.card .time {
+    flex: 1;
+    text-align: right;
+}
+
+.card button {
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    width: 280px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0 5px 0 0;
+    color: grey;
+    font-style: italic;
+}
+
+.card button:hover {
+    transition: ease-in 0.2s;
+    box-shadow: inset 280px 0 0 0 rgb(216, 216, 216);
+}
+
+/* Right Side Buttons */
+.container2 {
+    display: flex;
+    flex: 1;
+}
+
+main nav {
+    flex: auto;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+main nav li{
+    display: flex;
+}
+
+main nav li a{
+    display: flex;
+    height: 150px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+main nav li a:hover {
+    transition: ease-in 0.2s;
+    box-shadow: inset 450px 0 0 0 rgb(216, 216, 216);
+}

@@ -3,16 +3,17 @@
 <head>
     <title>Med Link Patient Homepage</title>
     <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="patient_homepage.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <!-- Top Nav Bar -->
     <header>
-        <a href="#"><img class="logo" src="img/MedLink_Logo.png" alt="logo"></a>
+        <a href="patient_homepage.html"><img class="logo" src="img/MedLink_Logo.png" alt="logo"></a>
         <nav>
             <ul class="nav_buttons">
                 <li><a href="#"><span class="material-icons">calendar_month</span>Calender</a></li>
-                <li><a href="#"><span class="material-icons">medication</span>Medication</a></li>
+                <li><a href="patient_medication.html"><span class="material-icons">medication</span>Medication</a></li>
                 <li><a href="#"><span class="material-icons">science</span>Results</a></li>
                 <li><a href="#"><span class="material-icons">mail</span>Message</a></li>
             </ul>
@@ -22,7 +23,60 @@
    
     <!-- Body of Page -->
     <main>
-       
+        <!-- Left Side -->
+        <div class="container1">
+            <div class="con_welcome">
+                <div class="welcome">Welcome back</div>
+                <div class="name">{Insert Name}</div>
+            </div>
+            <div class="con_appointment">
+                <div class="upcoming">Upcoming Appointments</div>
+                <div class="appointments">
+                    <!-- Appointment Card -->
+                    <div class="card">
+                        <div class="info">
+                            <div class ="name">
+                                {FirstName LastName}
+                            </div>
+                            <div class ="day">
+                                {Month Day},
+                            </div>
+                            <div class ="time">
+                                {Time}
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button">Cancel Appointment</button> 
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="info">
+                            <div class ="name">
+                                {FirstName LastName}
+                            </div>
+                            <div class ="day">
+                                {Month Day},
+                            </div>
+                            <div class ="time">
+                                {Time}
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button">Cancel Appointment</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right Side -->
+        <div class="container2">
+            <nav>
+                <li><a href="#" class="blue">Create Appointment</a></li>
+                <li><a href="#" class="white">Manage Medication<br>Info</a></li>
+                <li><a href="#" class="blue">Message Doctor</a></li>    
+            </nav>
+        </div>
+        
     </main>
 
     <!-- Bottom Nav Bar -->

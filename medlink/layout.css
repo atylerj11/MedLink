@@ -6,12 +6,13 @@
 
 body {
     background-color: #B0CEEA;
-    min-height: 100vh;
 }
 
 /* Top Nav Bar Style */
 header {
     position: fixed;
+    top: 0;
+    height: 70px;
     width: 100%;
     background-color: #5CA7F7;
     border-bottom: 2px solid black;
@@ -40,7 +41,6 @@ header .nav_buttons li a{
     color: black;
     font-size: 40px;
     border-radius: 50px;
-    
 }
 
 header .nav_buttons li:hover{
@@ -76,6 +76,7 @@ header span.material-icons:hover{
 footer {
     position: fixed;
     bottom: 0;
+    height: 20px;
     width: 100%;
     background-color: white;
     border-top: 2px solid black;
